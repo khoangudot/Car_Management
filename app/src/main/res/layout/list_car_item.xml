@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="7dp"
+    app:cardElevation="5dp"
+    android:id="@+id/car_item_layout"
+    >
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/item_carId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="#"
+            android:gravity="center"
+            android:layout_weight="0.3"
+            android:textSize="12sp"
+            android:fontFamily="@font/amita"
+            android:background="@drawable/cell_shape"
+            />
+        <TextView
+            android:id="@+id/item_plateNo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Plate No"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:background="@drawable/cell_shape"
+            android:fontFamily="@font/amita" />
+
+        <TextView
+            android:id="@+id/item_carOwner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Car Owner"
+            android:gravity="center"
+            android:background="@drawable/cell_shape"
+            android:textSize="12sp"
+            android:fontFamily="@font/amita"
+            />
+
+        <TextView
+            android:id="@+id/item_type"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Type"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:background="@drawable/cell_shape"
+            android:fontFamily="@font/amita" />
+        <TextView
+            android:id="@+id/item_price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Price($)"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:background="@drawable/cell_shape"
+            android:fontFamily="@font/amita" />
+
+    </TableRow>
+
+</androidx.cardview.widget.CardView>
