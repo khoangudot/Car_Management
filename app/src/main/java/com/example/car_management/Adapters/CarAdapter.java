@@ -37,7 +37,7 @@ public class CarAdapter extends RecyclerView.Adapter<CarAdapter.ViewHolder> {
         holder.CarOwnerName.setText(carModels.get(position).getCarOwnerName());
         holder.CarPrice.setText(String.format("%,.2f",carModels.get(position).getCarPrice()));
         holder.CarType.setText(carModels.get(position).getCarType());
-
+        //ạhfjhsadf
 
     }
 
